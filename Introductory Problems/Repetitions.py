@@ -7,7 +7,7 @@ import time
 dna = input('Введите строку: ')
 
 
-def repetitions(dna: str):
+def repetitions(dna: str) -> int:
     length = len(dna)
 
     if length == 1:

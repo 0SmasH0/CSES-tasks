@@ -8,7 +8,7 @@ number = int(input('Введите число: '))
 lst = input('Введите список чисел: ').split()
 
 
-def missing_num(num: int, lst: list):
+def missing_num(num: int, lst: list) -> int:
     suma = 0
     for i in lst:
         suma += int(i)

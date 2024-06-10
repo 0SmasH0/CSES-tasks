@@ -7,7 +7,7 @@ import time
 number = int(input('Введите число: '))
 
 
-def weird_algo(num: int):
+def weird_algo(num: int) -> None:
     while True:
         print(num, end=' ')
         if num == 1:
